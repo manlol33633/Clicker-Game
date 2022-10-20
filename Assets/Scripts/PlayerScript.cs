@@ -33,4 +33,12 @@ public class PlayerScript : MonoBehaviour
     void FixedUpdate() {
         
     }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.tag == "Homework") {
+            if (SanityBar.sanityLevel != 0) {
+                SanityBar.sanityLevel -= 5;
+            }
+        }
+    }
 }
