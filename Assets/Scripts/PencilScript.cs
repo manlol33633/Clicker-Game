@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PencilScript : MonoBehaviour
 {
     [SerializeField] private float pencilSpeed;
+    [SerializeField] private TMP_Text dots;
     private float pencilAngle;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
+    public static int credits = 0;
     void Start()
     {
         pencilRB2D = GetComponent<Rigidbody2D>();
@@ -22,8 +25,10 @@ public class PencilScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Homework") {
             Destroy(other.gameObject);
+            credits++;
+            dots.SetText("Dots: " + credits);
         }
-        if (other.tag == "Homework" || other.tag == "Barrier") {
+        if (other.tag == "Barrier") {
             Destroy(gameObject);
         }
     }

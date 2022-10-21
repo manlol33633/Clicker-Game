@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CloningScript : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class CloningScript : MonoBehaviour
     [SerializeField] private GameObject pencil;
     [SerializeField] private GameObject player;
     [SerializeField] private float cloningIntermission;
+    [SerializeField] private TMP_Text dots;
     private float intermissionValue;
     private GameObject homeworkClone;
     private GameObject pencilClone;
