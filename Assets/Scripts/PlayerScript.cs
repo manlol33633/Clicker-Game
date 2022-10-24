@@ -12,6 +12,7 @@ public class PlayerScript : MonoBehaviour
     private Vector3 mousePosition3D;
     void Start()
     {
+        Cursor.visible = false;
         playerRB2D = GetComponent<Rigidbody2D>();
     }
 
