@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2212088251043345773}
   - component: {fileID: -3328294149917106266}
   - component: {fileID: -3146419310156495827}
+  - component: {fileID: 4633083009582172536}
   m_Layer: 0
   m_Name: Homework
   m_TagString: Homework
@@ -124,3 +125,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f61488a7fd6f3d446a2833733a7e25d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &4633083009582172536
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7583013648799352719}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

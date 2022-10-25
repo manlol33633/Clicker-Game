@@ -26,7 +26,6 @@ public class PlayerScript : MonoBehaviour
         } else {
             playerRotation = Quaternion.Euler(0, 0, playerAngle - 90);
         }
-        Debug.Log(mousePosition2D);
 
         transform.rotation = Quaternion.Lerp(transform.rotation, playerRotation, rotationSpeed);
     }

@@ -10,11 +10,12 @@ public class PencilScript : MonoBehaviour
     private float pencilAngle;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
-    public static int credits = 0;
+    public static int credits;
     void Start()
     {
         pencilRB2D = GetComponent<Rigidbody2D>();
         pencilVelocity = new Vector2(0, pencilSpeed);
+        credits = 0;
     }
 
     void Update()
@@ -26,7 +27,7 @@ public class PencilScript : MonoBehaviour
         if (other.tag == "Homework") {
             Destroy(other.gameObject);
             credits++;
-            dots.SetText("Dots: " + credits);
+            //dots.text = "Dots: " + credits;
         }
         if (other.tag == "Barrier") {
             Destroy(gameObject);
