@@ -41,4 +41,5 @@ public class PlayerScript : MonoBehaviour
             }
         }
     }
+    // create a function that jumps only if the player is on the ground
 }

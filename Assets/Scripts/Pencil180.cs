@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class PencilScript : MonoBehaviour
+public class Pencil180 : MonoBehaviour
 {
     [SerializeField] private float pencilSpeed;
     private float pencilAngle;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
-    public static int credits = 0;
     void Start()
     {
-        pencilAngle = (180 / Mathf.PI) * Mathf.Atan(Input.mousePosition.y / Input.mousePosition.x);
+        pencilAngle = (180 / Mathf.PI) * Mathf.Atan(Input.mousePosition.y / Input.mousePosition.x) + 180;
         pencilRB2D = GetComponent<Rigidbody2D>();
         pencilVelocity = new Vector2(0, pencilSpeed);
     }
@@ -25,7 +24,7 @@ public class PencilScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Homework") {
             Destroy(other.gameObject);
-            credits += Upgrades.dotsPerHomework;
+            PencilScript.credits += Upgrades.dotsPerHomework;
         }
         if (other.tag == "Barrier") {
             Destroy(gameObject);
@@ -33,6 +32,6 @@ public class PencilScript : MonoBehaviour
     }
 
     void FixedUpdate() {
-        pencilRB2D.velocity = pencilSpeed * transform.up;
+        pencilRB2D.velocity = -pencilSpeed * transform.up;
     }
 }
