@@ -97,3 +97,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1213879d2e42bef4785f41889e031d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  homework: {fileID: 7583013648799352719, guid: 8e9580ac7e8be77448f6da3e8481654b, type: 3}
+  cloningIntermission: 3

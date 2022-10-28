@@ -148,7 +148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.56250197
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.826796
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -172,12 +172,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -111.542
       objectReference: {fileID: 0}
     - target: {fileID: 5071039695497794230, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_Name
       value: Teacher
       objectReference: {fileID: 0}
+    - target: {fileID: 6498356618556814936, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
+      propertyPath: homework
+      value: 
+      objectReference: {fileID: 7583013648799352719, guid: 8e9580ac7e8be77448f6da3e8481654b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
 --- !u!1 &153564479
@@ -513,11 +517,6 @@ CanvasRenderer:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4096123483048044571, guid: 107bf5d7c297909409471b993fcf6221, type: 3}
   m_PrefabInstance: {fileID: 4096123483156191331}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &502208830 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5071039695497794230, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
-  m_PrefabInstance: {fileID: 101113825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &981526513
 GameObject:
@@ -871,7 +870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.5562086
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -883,7 +882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.8310427
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -895,7 +894,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 112.412
       objectReference: {fileID: 0}
     - target: {fileID: 5071039695497794230, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_Name
@@ -1239,7 +1238,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8259311
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1251,7 +1250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.5637712
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1263,12 +1262,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -68.634
       objectReference: {fileID: 0}
     - target: {fileID: 5071039695497794230, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_Name
       value: Teacher (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6498356618556814936, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
+      propertyPath: homework
+      value: 
+      objectReference: {fileID: 7583013648799352719, guid: 8e9580ac7e8be77448f6da3e8481654b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
 --- !u!1 &1364650357
@@ -1526,7 +1529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.82894
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1538,7 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.55933756
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1550,7 +1553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 439590242866695739, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 68.02
       objectReference: {fileID: 0}
     - target: {fileID: 5071039695497794230, guid: bfde820337140ec46b5efd7d7082d68f, type: 3}
       propertyPath: m_Name
@@ -2111,11 +2114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37a5e175af239e444ace74f2fad4320e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  homework: {fileID: 7583013648799352719, guid: 8e9580ac7e8be77448f6da3e8481654b, type: 3}
-  teacher: {fileID: 502208830}
   pencil: {fileID: 3600650301608581915, guid: ab17d4b291c74b4478e4bd885d1e5068, type: 3}
   player: {fileID: 446689400}
-  cloningIntermission: 3
   dots: {fileID: 0}
 --- !u!4 &2049958028
 Transform:
