@@ -6,13 +6,11 @@ using TMPro;
 public class PencilScript : MonoBehaviour
 {
     [SerializeField] private float pencilSpeed;
-    private float pencilAngle;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
-    public static int credits = 0;
+    public static int credits = 100;
     void Start()
     {
-        pencilAngle = (180 / Mathf.PI) * Mathf.Atan(Input.mousePosition.y / Input.mousePosition.x);
         pencilRB2D = GetComponent<Rigidbody2D>();
         pencilVelocity = new Vector2(0, pencilSpeed);
     }

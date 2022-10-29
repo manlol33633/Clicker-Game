@@ -214,6 +214,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnFlank: {fileID: 541072436}
+  flankCost: {fileID: 302378701}
+  purchaseIntermission: 2
 --- !u!4 &111402809
 Transform:
   m_ObjectHideFlags: 0
@@ -463,7 +465,7 @@ GameObject:
   - component: {fileID: 302378702}
   - component: {fileID: 302378701}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: FlankCost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -982,7 +984,7 @@ GameObject:
   - component: {fileID: 609108184}
   - component: {fileID: 609108183}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DPHCost
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

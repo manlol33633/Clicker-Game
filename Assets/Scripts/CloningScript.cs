@@ -11,7 +11,8 @@ public class CloningScript : MonoBehaviour
     [SerializeField] private TMP_Text dots;
     private GameObject homeworkClone;
     private GameObject pencilClone;
-    public static GameObject pencilClone180;
+    private GameObject pencilClone180;
+    private Quaternion pencilRotation;
     void Start()
     {
 
@@ -19,9 +20,10 @@ public class CloningScript : MonoBehaviour
 
     void Update()
     {
+        pencilRotation = Quaternion.Euler(0, 0, player.transform.rotation.eulerAngles.z + 180);
         if (Upgrades.isFlank && Input.GetMouseButtonDown(0)) {
             pencilClone = Instantiate(pencil, player.transform.position, player.transform.rotation);
-            pencilClone180 = Instantiate(pencil180, player.transform.position, player.transform.rotation);
+            pencilClone180 = Instantiate(pencil180, player.transform.position, pencilRotation);
 
         }
         if (!Upgrades.isFlank && Input.GetMouseButtonDown(0)) {

@@ -6,12 +6,10 @@ using TMPro;
 public class Pencil180 : MonoBehaviour
 {
     [SerializeField] private float pencilSpeed;
-    private float pencilAngle;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
     void Start()
     {
-        pencilAngle = (180 / Mathf.PI) * Mathf.Atan(Input.mousePosition.y / Input.mousePosition.x) + 180;
         pencilRB2D = GetComponent<Rigidbody2D>();
         pencilVelocity = new Vector2(0, pencilSpeed);
     }
@@ -32,6 +30,6 @@ public class Pencil180 : MonoBehaviour
     }
 
     void FixedUpdate() {
-        pencilRB2D.velocity = -pencilSpeed * transform.up;
+        pencilRB2D.velocity = pencilSpeed * transform.up;
     }
 }
