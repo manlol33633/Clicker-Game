@@ -36,6 +36,7 @@ public class DyingAnimation : MonoBehaviour
         if (SanityBar.sanityLevel == 0) {
             myChromaticAberration.intensity.Override(0);
             myBloom.tint.Override(Color.black);
+            SceneManager.LoadScene("GameOver");
             Time.timeScale = 0;
         }
     }

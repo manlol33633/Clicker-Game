@@ -8,7 +8,7 @@ public class PencilScript : MonoBehaviour
     [SerializeField] private float pencilSpeed;
     private Rigidbody2D pencilRB2D;
     private Vector2 pencilVelocity;
-    public static int credits = 100;
+    public static int credits = 0;
     void Start()
     {
         pencilRB2D = GetComponent<Rigidbody2D>();
